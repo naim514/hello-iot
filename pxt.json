@@ -4,12 +4,15 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-esp8266_thingspeak": "github:alankrantas/pxt-esp8266_thingspeak#v0.0.3",
+        "pxt-PTKidsBIT-IoT": "github:ibuilds/pxt-ptkidsbit-iot#v2.1.3"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "hello-iot.ts"
     ],
     "testFiles": [
         "test.ts"
